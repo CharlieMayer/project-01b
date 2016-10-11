@@ -1,0 +1,659 @@
+/*mobile first approach*/
+/***** These are the styles for flexbox****/
+
+.align-flex-end {
+    align-self: flex-end;
+}
+.alignflexcenter {
+    align-items: center;
+}
+.justifystart {
+    justify-content: flex-start;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.growdouble {
+    flex-grow: 2;
+}
+.growalot {
+    flex-grow: 10;
+}
+.flex-item {
+    flex-basis: 80px;
+}
+.flexstretch {
+    align-content: stretch;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+.inlineflex {
+    display: inline-flex;
+}
+.row {
+    flex-direction: row;
+}
+.column {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.justifycenter {
+    justify-content: center;
+}
+.justifyend {
+    justify-content: flex-end;
+}
+/***** These are the styles for nav****/
+
+.aloha-logo {
+    ;
+}
+.cart-logo {} .imgsize {
+    height: 250px;
+    margin: 2px;
+    object-fit: fill;
+}
+.text-aligncenter {
+    text-align: center;
+}
+.inline {
+    display: inline;
+}
+.visibledesktop {
+    display: none;
+}
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+    background-position: center top, 50% 100px;
+    background-repeat: repeat-x, no-repeat;
+    background-size: contain;
+}
+.font-size {
+    color: #2d2d2d;
+    font-size: 17px;
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/*************
+These are the styles for
+the Image Display section
+******/
+
+.mens {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/mens-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trends {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/trends-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.glasses {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/glasses-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sale {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/sale-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bags {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/bags-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.womens {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/womens-category.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aligncenter {
+    align-items: center;
+}
+full-for-mobile {
+    width: auto;
+}
+div.clothes {
+    display: inline;
+    width: 23%;
+}
+div.floatleft {
+    float: none;
+}
+body {
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+p {
+    text-align: center;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.input {
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 15px;
+}
+button {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    margin: 3px 0;
+    background-color: #e2574c;
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 20%;
+    height: 20px;
+}
+body {
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+}
+.imagepad {
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.displayinline {
+    display: inline;
+}
+.displayblock {
+    display: inline-block;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 2%;
+    width: 100%;
+    /* max width */
+}
+/***************************
+****************************
+These are the styles for
+the header section
+****************************
+***************************/
+
+header {
+    max-width: 100%;
+}
+.Playfair {
+    font-family: 'Playfair Display', serif;
+}
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearleft {
+    clear: left;
+}
+.white {
+    color: #ffffff;
+}
+.nopadding {
+    margin: 0;
+    padding: 0;
+}
+.lighter {
+    font-weight: lighter;
+}
+.font-size16 {
+    font-size: 16px;
+}
+.font-size30 {
+    font-size: 30px;
+}
+.grey-color {
+    color: #969696;
+}
+.orange-color {
+    color: #e2574c
+}
+.padding-bottom {
+    padding-bottom: 60px;
+}
+.orange {
+    color: #e2574c;
+    font-size: 25px;
+}
+.margin10 {
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul {
+    list-style-type: none;
+}
+/***************************
+****************************
+These are the styles for
+the girl background section
+****************************
+***************************/
+
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+    background-position: center top, 50% 100px;
+    background-repeat: repeat-x, no-repeat;
+    background-size: cover, 150px 100%;
+    height: auto;
+    max-height: 60.938em;
+    top: 4.063em;
+    width: 100%;
+}
+/***************************
+****************************
+These are the font settings
+****************************
+***************************/
+
+.mySecondFont {
+    font-family: "mySecondFont";
+}
+@font-face {
+    font-family: "myFirstFont";
+    src: url("fonts/PlayfairDisplay-Regular.otf");
+}
+@font-face {
+    font-family: "mySecondFont";
+    src: url("fonts/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: "myThirdFont";
+    src: url("fonts/PlayfairDisplay-Italic.otf");
+}
+@font-face {
+    font-family: "myFourthFont";
+    src: url("fonts/PlayfairDisplay-Bold.otf");
+}
+.railwaylight {
+    font-family: "mySecondfont";
+}
+/***************************
+****************************
+These are the alignment settings
+****************************
+***************************/
+
+.center {
+    text-align: center;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #d7d7d7 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+}
+/*** These are the float settings ***/
+
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.logo {
+    display: inline-block;
+}
+/***************************
+****************************
+These are the heading settings
+****************************
+***************************/
+
+.font-size {
+    color: #2d2d2d;
+    font-size: 15px;
+    text-align: center;
+}
+.carousel {
+    margin-bottom: 30px;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+}
+h4 {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    font-weight: normal;
+}
+div {
+    font-family: myFirstFont;
+}
+.bgdiv {
+    height: 600px;
+    width: 100%;
+}
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #d7d7d7;
+}
+.bodytext {
+    color: #2d2d2d;
+}
+.container2 {
+    width: 25%;
+}
+/***********************
+These are the Carousel settings
+**************/
+
+.carousel-cell {
+    width: 100%;
+    /* full width */
+
+    height: 500px;
+    /* height of carousel */
+
+    margin-right: 10px;
+}
+/***************************
+****************************
+These are the Sign up  settings
+****************************
+***************************/
+
+.section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/wave-bkgd.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+#image.container {
+    float: left;
+}
+.relative {
+    position: relative;
+}
+/***************************
+****************************
+These are the input form settings
+****************************
+***************************/
+
+.input {
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 60%;
+    height: 25px;
+    padding: 0 0 0 15px;
+}
+button {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    margin: 3px 0;
+    background-color: #e2574c;
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 20%;
+    height: 20px;
+}
+/***************************
+****************************
+These are the Products Section settings
+****************************
+***************************/
+
+.Category {
+    font-family: mySecondFont;
+}
+.clothes {
+    text-align: center;
+}
+.Product {
+    text-align: center;
+}
+.Price {
+    text-align: center;
+}
+/***************************
+****************************
+These are the footer settings
+****************************
+***************************/
+
+footer {
+    background-color: #242424;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+div.clothes {
+    display: inline-block;
+    width: 23%;
+}
+/***************************
+****************************
+These are the list settings
+****************************
+***************************/
+
+ul {
+    padding-right: 60px;
+    float: right;
+}
+.visibledesktop{
+  display: none; margin: 0 auto;
+}
+/***************************
+  ****************************
+  These are the tablet settings
+  ****************************
+  ***************************/
+
+@media (min-width: 600px) {
+    /* For tablet */
+
+    .visibledesktop {
+      display: inline; margin: 0 auto;
+    }
+    .visiblemedia{
+      display: none;
+    }
+    imgsize {
+      display: inline-block;
+        width:: 23%;
+        object-fit: fill;
+    .top {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+        background-repeat: no-repeat;
+        , no-repeat;
+        background-size: contain;
+        width: 100%;
+    }
+    h2 {
+        color: white;
+        font-family: myFirstFont;
+        font-size: 25px;
+        padding-top: 45%;
+    }
+    h1 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .font-size {
+        color: #2d2d2d;
+        font-size: 17px;
+        text-align: center;
+    }
+    div.clothes {
+        display: inline;
+        width: 40%;
+    }
+    body {
+        font-size: 14px;
+    }
+    p {
+        text-align: center;
+    }
+    .input {
+        border-radius: 31px;
+        -moz-border-radius: 31px;
+        -webkit-border-radius: 31px;
+        border: 0px solid #FFFFFF;
+        width: 70%;
+        height: 25px;
+        padding: 0 0 0 15px;
+    }
+    button {
+        position: absolute;
+        top: 0;
+        right: 15%;
+        margin: 3px 0;
+        background-color: #e2574c;
+        border-radius: 31px;
+        -moz-border-radius: 31px;
+        -webkit-border-radius: 31px;
+        border: 0px solid #FFFFFF;
+        width: 20%;
+        height: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .imagepad {
+        padding-left: 20%;
+        padding-right: 10%;
+    }
+}
+@media (min-width: 1240px) {
+    /* For desktop*/
+
+        .visibledesktop {
+        display: inline; margin: 0 auto;
+        }
+        .visiblemedia{
+          display: none;
+        }
+        .top {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+            background-repeat: no-repeat;
+            , no-repeat;
+            background-size: contain;
+            width: 100%;
+        }
+        h2 {
+            color: white;
+            font-family: myFirstFont;
+            font-size: 25px;
+            padding-top: 45%;
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .font-size {
+            color: #2d2d2d;
+            font-size: 17px;
+            text-align: center;
+        }
+        full-for-mobile {
+            width: auto;
+        }
+        div.clothes {
+            display: inline;
+            width: 40%;
+        }
+        div.floatleft {
+            float: none;
+        }
+        body {
+            font-size: 14px;
+        }
+        p {
+            text-align: center;
+        }
+        .input {
+            border-radius: 31px;
+            -moz-border-radius: 31px;
+            -webkit-border-radius: 31px;
+            border: 0px solid #FFFFFF;
+            width: 70%;
+            height: 25px;
+            padding: 0 0 0 15px;
+        }
+        button {
+            position: absolute;
+            top: 0;
+            right: 15%;
+            margin: 3px 0;
+            background-color: #e2574c;
+            border-radius: 31px;
+            -moz-border-radius: 31px;
+            -webkit-border-radius: 31px;
+            border: 0px solid #FFFFFF;
+            width: 20%;
+            height: 20px;
+        }
+        body {
+            font-size: 14px;
+        }
+        img {
+            max-width: 100%;
+        }
+        .imagepad {
+            padding-left: 20%;
+            padding-right: 10%;
+        }
+    }

@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="aloha.js"></script>
+      <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+      <title>Aloha Shop</title>
+      <!-- Link to Stylesheet-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Link to Font-->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+      <!-- CSS Reset -->
+      <link rel="stylesheet" type="text/css" href="cssreset.css">
+      <!-- CSS Flickity Carousel -->
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+      <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+      <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <!-- Here starts the Body Content -->
+   <body>
+      <!-- Here starts the Header With Aloha Logo and Cart Icon-->
+      <header class="flex-container alignflexcenter">
+         <div class="justifystart flex-container">
+            <img src="images/aloha-logo.svg" class="aloha-logo" alt="Aloha" height="50" width="100">
+         </div>
+         <nav class="visibledesktop flex-container  Raleway justifycenter alignflexcenter space-between">
+            <ul>
+               <li class="margin10"><a href="#about" class="smoothScroll orange-color">ABOUT</a></li>
+               <li class="margin10"><a href="#shop" class="smoothScroll orange-color">SHOP</a></li>
+               <li class="margin10"><a href="#featured" class="smoothScroll orange-color">FEATURED</a></li>
+               <li class="margin10"><a href="#updates" class="smoothScroll orange-color"> UPDATES</a></li>
+            </ul>
+         </nav>
+         <div class="justifyend flex-container">
+            <img src="images/cart-icon.svg" class="cart-logo" alt="Cart Icon" height="50" width="50">
+         </div>
+      </header>
+      <hr/>
+      <nav class="visiblemedia flex-container  Raleway justifycenter alignflexcenter space-between">
+         <ul>
+            <li class="margin10"><a href="#about" class="smoothScroll orange-color">ABOUT</a></li>
+            <li class="margin10"><a href="#shop" class="smoothScroll orange-color">SHOP</a></li>
+            <li class="margin10"><a href="#featured" class="smoothScroll orange-color">FEATURED</a></li>
+            <li class="margin10"><a href="#updates" class="smoothScroll orange-color"> UPDATES</a></li>
+         </ul>
+      </nav>
+      <!-- Here starts the Section With Girl background-image  -->
+      <div class="bgdiv top flex-container column justifycenter alignflexcenter">
+         <section>
+            <h4 class="Raleway uppercase lighter">New Collection</h4>
+            <br>
+            <h3 class="Playfair white lighter"> Spring/ Summer 2016</h3>
+         </section>
+      </div>
+      <!-- Here starts the Hand Crafted Styles Section -->
+      <div class="flex-container displayblock text-aligncenter">
+         <a name="about"></a>
+
+         <h3 style="font-family:myThirdFont; color:#2d2d2d">
+            Hand Crafted  <span style="font-family:myFourthFont;color:#2d2d2d">Styles</span>
+         </h3>
+
+         <p class="font-size">Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our </p>
+         <p class="font-size"> current selection of products or sign up for updates below.</p>
+      </div>
+      <hr/>
+      <!-- Here starts the Image display Section -->
+      <a name="shop"></a>
+      <div class="flex-container column ">
+         <div class="flex-container imgsize mens justifycenter aligncenter transparent">
+            <p class="Raleway white uppercase font-size30">Men's</p>
+         </div>
+      </div>
+      <div class="flex-container row ">
+         <div class="flex-container imgsize trends justifycenter aligncenter transparent">
+            <p class="Raleway white uppercase font-size30">Trends</p>
+         </div>
+         <div class="flex-container imgsize glasses justifycenter aligncenter transparent">
+            <p class= "Raleway white uppercase font-size30">Glasses</p>
+         </div>
+      </div>
+      <div class="flex-container row ">
+         <div class="flex-container imgsize sale justifycenter aligncenter">
+            <p class="Raleway white uppercase font-size30">Sale</p>
+         </div>
+         <div class="flex-container imgsize bags justifycenter aligncenter">
+            <p class="Raleway white uppercase font-size30">Bags</p>
+         </div>
+      </div>
+      <div class="flex-container column ">
+         <div class="growdouble flex-container imgsize womens justifycenter aligncenter">
+            <p class="Raleway white uppercase font-size30">Women's</p>
+         </div>
+      </div>
+
+      <!-- Here starts the  Products Section -->
+      <a name="featured"></a>
+      <div class="products flex-container displayblock">
+         <h3 style="font-family:myThirdFont; color:#2d2d2d">
+            Most-Loved <span style="font-family:myFourthFont;color:#2d2d2d">Products</span>
+         </h3>
+         <!-- Here starts the Flickity Carousel-->
+         <div class="carousel" data-flickity>
+            <!-- Here starts the Stretch Knit Dress Div-->
+            <div class="carousel-cell">
+               <div class="clothes visibledevice padding-bottom flex-container">
+                  <img src="images/stretch-knit-dress.jpg" data-OrgPrice="169" class="imagepad" alt="Stretch Knit Dress" height="250" width="250">
+                  <p class="Category grey-color">DRESSES</p>
+                  <p class="Product orange">Stretch Knit Dress</p>
+                  <p class="Price grey-color">$169.00</p>
+               </div>
+            </div>
+            <!-- Here starts the Cotton Blue Shirt Div-->
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/cotton-blue-shirt.jpg"  class="imagepad" alt="Cotton Blue Shirt" height="250" width="250">
+                  <p class="Category grey-color">SHIRTS</p>
+                  <p class="Product orange">Cotton Blue Shirt</p>
+                  <p class="Price grey-color">$89.00</p>
+               </div>
+            </div>
+            <!-- Here starts the Checked Stretch Dress Div-->
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/checked-stretch-dress.jpg" data-OrgPrice="129" class="imagepad" alt="Checkered Strech Dress" height="250" width="250">
+                  <p class="Category grey-color">DRESSES</p>
+                  <p class="Product orange">Checked Stretch Dress</p>
+                  <p class="Price grey-color">$129.00</p>
+               </div>
+            </div>
+            <!-- Here starts the Blue Hipster Backpack Div-->
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/blue-hipster-backpack.jpg" data-OrgPrice="69" class="imagepad" alt="Blue Hipster Backpack" height="250" width="200">
+                  <p class="Category grey-color">BAGS</p>
+                  <p class="Product orange">Blue Hipster Backpack</p>
+                  <p class="Price grey-color">$69.00 </p>
+               </div>
+            </div>
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/demin-overall-shorts.jpg" data-OrgPrice="69" class="imagepad" alt="Denim Overall Shorts" height="250" width="200">
+                  <p class="Category grey-color">DENIM</p>
+                  <p class="Product orange">Denim Overall Shorts</p>
+                  <p class="Price grey-color">$89.00 </p>
+               </div>
+            </div>
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/pink-dotted-dress.jpg" data-OrgPrice="69" class="imagepad" alt="Pink Dotted Dress" height="250" width="200">
+                  <p class="Category grey-color">DRESSES</p>
+                  <p class="Product orange">Pink Dotted Dress</p>
+                  <p class="Price grey-color">$99.00 </p>
+               </div>
+            </div>
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/blue-silk-dress.jpg" data-OrgPrice="69" class="imagepad" alt="Blue Silk Dress" height="250" width="200">
+                  <p class="Category grey-color">DRESSES</p>
+                  <p class="Product orange">Blu Silk Dress</p>
+                  <p class="Price grey-color">$99.00 </p>
+               </div>
+            </div>
+            <div class="carousel-cell">
+               <div class="clothes visibledevice flex-container">
+                  <img src="images/cotton-yellow-tshirt.jpg" data-OrgPrice="69" class="imagepad" alt="Cotton Yellow Shirt" height="250" width="200">
+                  <p class="Category grey-color">SHIRTS</p>
+                  <p class="Product orange">Cotton Yellow Shirt</p>
+                  <p class="Price grey-color">$89.00 </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Here starts the Sign-Up Section-->
+      <section class="section flex-container displayblock">
+         <div>
+            <a name="updates"></a>
+            <h3 style="font-family:myThirdFont;color:white">
+               Sign-Up for <span style="font-family:myFourthFont;">Updates</span>
+            </h3>
+         </div>
+         <p class="center font-size railwaylight"><span style="color: white;"> Stay updated on our latest product releases, be first to find out about upcoming</span></p>
+         <p class="center font-size railwaylight"><span style="color: white;"> and get free style tips from our blog.  Unsubscribe at any time.</span></p>
+      <!-- Here starts the Email Input Form-->
+         <form class="center">
+            <div class="relative">
+               <input id='email' class="input grey-color" type="email" value="Your Email">
+               <button class="white center" type='submit' id='validate'>Subscribe</button>
+            </div>
+         </form>
+      </section>
+      <!-- Here starts the Footer-->
+      <footer class="flex-container displayblock alignflexcenter column">
+         <div>
+            <p>&copy; 2016 Aloha Apparel Co.</p>
+            <p>Powered by HTML and CSS.</p>
+            <p>604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a> </p>
+            <p class="grey-color"> 1490 W Broadway</p>
+            <p class="grey-color">Vancouver, BC, Canada</p>
+            <!-- Here starts the Social Media Icon List-->
+            <ul class="flex-container justifycenter space-between">
+               <li><i class="fa fa-facebook-square" aria-hidden="true"></i> <span class="visibledesktop mySecondFont">Facebook</span></li>
+               <li><i class="fa fa-twitter" aria-hidden="true"></i> <span class="visibledesktop mySecondFont">Twitter</span></li>
+               <li><i class="fa fa-instagram" aria-hidden="true"></i> <span class="visibledesktop mySecondFont">Instagram</span></li>
+               <li><i class="fa fa-pinterest-square" aria-hidden="true"></i><span class="visibledesktop mySecondFont">Pinterest</span></li>
+               <li><i class="fa fa-google-plus" aria-hidden="true"></i><span class="visibledesktop mySecondFont">Google+</span></li>
+            </ul>
+         </div>
+      </footer>
+   </body>
+</html>
