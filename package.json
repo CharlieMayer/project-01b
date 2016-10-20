@@ -1,0 +1,25 @@
+{
+  "name": "project-01b",
+  "version": "1.0.0",
+  "description": "Project 01b.",
+  "main": "aloha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieMayer/project-01b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieMayer/project-01b/issues"
+  },
+  "homepage": "https://github.com/CharlieMayer/project-01b#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
