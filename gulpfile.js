@@ -13,14 +13,14 @@ gulp.task('styles', function() {
 
 gulp.task("js",function(){
 
-  gulp.src('./js/*.js')
+  gulp.src('./*.js')
   .pipe(messyAA())
   .pipe(rename({extname:"min.js"}))
   .pipe(gulp.dest('./build/js'));
 });
 
     gulp.task("css", function(){
-     return gulp.src("./css/*.css")
+     return gulp.src("./*.css")
      .pipe(cssmin())
      .pipe(rename({extname: ".min.css"}))
      .pipe(gulp.dest("./build/css"));
